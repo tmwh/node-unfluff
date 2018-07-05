@@ -28,8 +28,9 @@
   },
   "dependencies": {
     "cheerio": "~0.22.0",
-    "optimist": "~0.6.1",
     "lodash": "~2.4.1",
+    "optimist": "~0.6.1",
+    "stopwords-iso": "^0.4.0",
     "xregexp": "~2.0.0"
   },
   "devDependencies": {
