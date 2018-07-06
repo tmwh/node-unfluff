@@ -222,7 +222,7 @@ module.exports =
   # Walk the document's text nodes and find the most 'texty' node in the doc
   calculateBestNode: (doc, lang) ->
     topNode = null
-    nodesToCheck = doc("p, pre, td")
+    nodesToCheck = doc("div, h2, h3, p, pre, td")
 
     startingBoost = 1.0
     cnt = 0
